@@ -1,0 +1,30 @@
+
+Connecting to 172.28.16.22...
+
+Connected to device with hostname: APpunIN01Esw04-IT06
+
+--- Searching for pattern: 2c58.b9b8.04c0 on APpunIN01Esw04-IT06 (172.28.16.22) ---
+
+[Hostname: APpunIN01Esw04-IT06] [MAC: 2c58.b9b8.04c0] Match found:
+  26    2c58.b9b8.04c0    DYNAMIC     Gi2/0/13
+
+--- Additional Info for Interface: Gi2/0/13 ---
+
+[Running Config for Gi2/0/13 on APpunIN01Esw04-IT06]:
+Building configuration...
+
+Current configuration : 172 bytes
+!
+interface GigabitEthernet2/0/13
+ switchport access vlan 26
+ switchport mode access
+ switchport voice vlan 18
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+end
+
+
+[Status for Gi2/0/13 on APpunIN01Esw04-IT06]:
+
+Port         Name               Status       Vlan       Duplex  Speed Type
+Gi2/0/13                        connected    26         a-full a-1000 10/100/1000BaseTX
