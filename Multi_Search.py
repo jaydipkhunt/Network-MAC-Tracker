@@ -2,7 +2,7 @@ import re
 from netmiko import ConnectHandler
 import getpass
 
-USERNAME = "jkhunt-a"
+USERNAME = "admin"
 PASSWORD = getpass.getpass("Enter password: ")
 
 DEVICE_TYPE = "cisco_ios"
