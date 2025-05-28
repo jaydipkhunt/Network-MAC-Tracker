@@ -1,9 +1,9 @@
 
-Connecting to 172.28.16.22...
+Connecting to 172.1.1.1...
 
-Connected to device with hostname: APpunIN01Esw04-IT06
+Connected to device with hostname: APTEST1CSW-Sw
 
---- Searching for pattern: 2c58.b9b8.04c0 on APpunIN01Esw04-IT06 (172.28.16.22) ---
+--- Searching for pattern: 2c58.b9b8.04c0 on APTEST1CSW-Sw (172.1.1.1) ---
 
 [Hostname: APpunIN01Esw04-IT06] [MAC: 2c58.b9b8.04c0] Match found:
   26    2c58.b9b8.04c0    DYNAMIC     Gi2/0/13
@@ -24,7 +24,7 @@ interface GigabitEthernet2/0/13
 end
 
 
-[Status for Gi2/0/13 on APpunIN01Esw04-IT06]:
+[Status for Gi2/0/13 on 172.1.1.1]:
 
 Port         Name               Status       Vlan       Duplex  Speed Type
 Gi2/0/13                        connected    26         a-full a-1000 10/100/1000BaseTX
