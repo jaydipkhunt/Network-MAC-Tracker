@@ -1,1 +1,4 @@
-2c58.b9b8.04c0
+Add the Mac address in below format.
+
+AAAA.BBBB.CCCC.DDDD
+AAAA.BBBB.CCCC.DDDE
